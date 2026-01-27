@@ -2,10 +2,10 @@
 
 - U okviru Grpc demo projekta pokrivena su sva 4 tipa komunikacije (unarna, serverstream, clientstream, bidirectionalstream)  
 - Rešeni blanketi: Jun2024, Okt2_2025  
-- Za ispit nije neophodno pisati client program.cs niti server program.cs, samo proto fajlove i servise!  
+- Za ispit nije neophodno pisati client program.cs niti server program.cs, `samo proto fajlove i servise!`  
 - Setup projekta:  
   1. Kreirati novi gRPC projekat  
-  2. U okviru istog solution-a dodati novi konzolni projekat za klijenta, dodati sledeće NuGet pakete: Google.Protobuf, Grpc.Net.Client, Grpc.Tools  
+  2. U okviru istog solution-a dodati novi konzolni projekat za klijenta, dodati sledeće NuGet pakete: `Google.Protobuf`, `Grpc.Net.Client`, `Grpc.Tools`  
   3. Edit project file (csproj) u klijentu i serveru  
      - Primer za server:  
        ```xml
