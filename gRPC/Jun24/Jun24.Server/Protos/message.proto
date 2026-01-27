@@ -1,0 +1,29 @@
+syntax = "proto3";
+package Messages;
+
+
+service MessageService
+{
+	rpc SendMessage (Message) returns (DefaultResponse);
+	rpc DeleteMessage (MessageDeleteRequest) returns (DefaultResponse);
+	rpc ListMessages (EmptyRequest) returns (stream Message);
+}
+
+message Message
+{
+	string text = 1;
+}
+
+message MessageDeleteRequest
+{
+	int32 id = 1;
+}
+
+message EmptyRequest {}
+
+message DefaultResponse
+{
+	int32 id = 1;
+	string text = 2;
+	
+}

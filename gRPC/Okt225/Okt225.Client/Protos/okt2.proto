@@ -1,0 +1,18 @@
+syntax = "proto3";
+package Okt2;
+
+service Square
+{
+	rpc IsSquare (stream Numbers) returns (stream Response);
+}
+
+message Numbers 
+{
+	int32 a = 1;
+	int32 b = 2;
+}
+
+message Response
+{
+	string text = 1;
+}
