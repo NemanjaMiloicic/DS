@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "zN42dNdNqTKq9fyAbphorIcc3uNYRILFV72eZGXo9gvJYP51FtMCBFDlbdvk1Gym07xoAsvOLfv/Yk21KusWMg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Nemanja\\Desktop\\DS\\gRPC\\Jun24\\Jun24.Client\\Jun24.Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nemanja\\.nuget\\packages\\google.protobuf\\3.33.4\\google.protobuf.3.33.4.nupkg.sha512",
+    "C:\\Users\\Nemanja\\.nuget\\packages\\grpc.core.api\\2.76.0\\grpc.core.api.2.76.0.nupkg.sha512",
+    "C:\\Users\\Nemanja\\.nuget\\packages\\grpc.net.client\\2.76.0\\grpc.net.client.2.76.0.nupkg.sha512",
+    "C:\\Users\\Nemanja\\.nuget\\packages\\grpc.net.common\\2.76.0\\grpc.net.common.2.76.0.nupkg.sha512",
+    "C:\\Users\\Nemanja\\.nuget\\packages\\grpc.tools\\2.76.0\\grpc.tools.2.76.0.nupkg.sha512",
+    "C:\\Users\\Nemanja\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Nemanja\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
