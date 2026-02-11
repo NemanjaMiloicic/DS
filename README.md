@@ -31,13 +31,20 @@
 - Rešeni blanketi: Jun2024
 - Setup projekta:
   1. Nije neophodno okruženje (ja sam u vscode pisao), kada ispišete sve fajlove pokrenite terminal u folderu gde vam se nalaze svi java fajlovi i napišite sleću komandu
- ```javac *.java
+ ```
+ 
+ javac *.java
+ 
  ```  
   2. Prethodna komanda kompajluje sve java fajlove i kreira .class fajlove, za startovanje servera koristimo
-   ```java Server
+   ```
+   java Server
+   
    ``` 
    a za klijent:
-   ```java Client
+   ```
+   java Client
+   
    ``` 
    **Bez ekstenzija**
 
