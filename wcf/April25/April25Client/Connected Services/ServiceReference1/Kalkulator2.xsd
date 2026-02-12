@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:62488/Kalkulator.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/April25" />
+  <xs:element name="ObrisiRacunanje">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Dodaj">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="broj" type="xs:decimal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Oduzmi">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="broj" type="xs:decimal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Pomnozi">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="broj" type="xs:decimal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Podeli">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="broj" type="xs:decimal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Rezultat">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/April25" minOccurs="0" name="rezultat" nillable="true" type="q1:Rezultat" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Greska">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="poruka" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

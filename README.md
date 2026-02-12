@@ -66,4 +66,58 @@
    RemoteObj manager = (RemoteObj) Naming.lookup("rmi://localhost/ServiceName");
    manager.HelloWorld(); // HelloWorld je metoda remote objekta koja je definisana u interfejsu remote objekta a implementirana u Impl.
    ```
-   
+
+
+
+# WCF
+
+- Setup projekta:
+- Za server idete add new project i **WCF SERVICE APPLICATION** , za klijentsku aplikacuje je najbolje da bude winforms 
+- Za ispit nije neophodno pisati ceo web config već samo ovi ključni delovi:
+u slučaju da nije full duplex onda :
+```
+<configuration>
+ <system.serviceModel>
+    <services>
+      <service name ="ImeProjekta.ImeServisa">
+        <endpoint contract="ImeProjekta.InterfejsServisa" binding="basicHttpBinding" address="" />
+      </service>
+	</services>
+ </system.serviceModel>
+</configuration>
+``` 
+kada je full duplex:
+```
+<configuration>
+ <system.serviceModel>
+ 
+	<bindings>
+      <wsDualHttpBinding>
+        <binding name ="wsDualHttpBindingConfiguration" transactionFlow="true" />
+      </wsDualHttpBinding>
+    </bindings>
+	
+	<protocolMapping>
+	 <add scheme="http" binding="wsDualHttpBinding" bindingConfiguration="wsDualHttpBindingConfiguration"/>
+	</protocolMapping>
+	
+	<services>
+      <service name="ImeProjekta.ImeServisa">
+        <endpoint binding="wsDualHttpBinding" contract="ImeProjekta.InterfejsServisa/">
+      </service>
+    </services>
+	
+  </system.serviceModel>
+</configuration>
+```
+
+1. Dodati novi wcf servic CTRL+SHIFT+a koji će biti zapravo interfejs našeg servisa
+2. Dodati u skladu sa zahtevima odovarajući **ServiceContract** deskriptor
+Ukoliko nema callback pišemo samo **[ServiceContract]** iznad interfejsa a ukoliko zadatak ima callback **[ServiceContract(CallbackContract = typeof(ImeInterfejsaCallback), SessionMode = SessionMode.Required)]
+sve metode imaju deskriptor **[OperationContract]** ali neke mogu imati **[OperationContract(isOneWay = true)]**, što naglašava da servis ne treba da čeka da klijent primi poruku, i ove funkciju moraju biti void
+3. Kreiramo pomoćne klase jedino je bitno napomenuti da njima iznad klase ide deskriptor **[DataContract]** a njihovim propertijima **[DataMember]**
+4. Implementacija interfejsa, i iznad klase ide deskriptor **[ServiceBehavior(InstanceContextMode = InstanceContextMode.PerCall)]** , može biti **PerCall** , **Single** , ili **PerSession**,
+PerCall znači da će se servis instancirati svaki put kad se metoda pozove (baš retko u zadacima) , Single - svi klijenti imaju isti servis poželjno u situacijama gde postoji "centralna baza podataka" , PerSession - svaki klijent ima svoj servis, odnosno svoju mini bazu
+5. Ukoliko imamo callback i traži se od nas, samo je potrebno interfejs na serveru napisati
+6. Kreirati klijenstku aplikaciju i desni klik add service reference i odabrati naš servis, i štiklirati Synchronous methods
+7. implementacija callbacka na klijentu ukoliko postoji, i pristup ImeServisaClient klasi, objekat je potrebno nazvati proxy, iz koga pozivamo metode sa servera.
