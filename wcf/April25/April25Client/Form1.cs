@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Policy;
 using System.ServiceModel;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,6 +16,7 @@ namespace April25Client
     public partial class Form1 : Form , IKalkulatorCallback
     {
         KalkulatorClient client;
+       
         public Form1()
         {
             InitializeComponent();
@@ -59,5 +61,7 @@ namespace April25Client
         {
             client.Podeli(numericUpDown.Value);
         }
+
+        
     }
 }

@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nemanja\\Desktop\\DS\\wcf\\April25\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C948640E-74AC-44B8-91C6-6F405FC603C3}|April25Client\\April25Client.csproj|c:\\users\\nemanja\\desktop\\ds\\wcf\\april25\\april25client\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C948640E-74AC-44B8-91C6-6F405FC603C3}|April25Client\\April25Client.csproj|solutionrelative:april25client\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C948640E-74AC-44B8-91C6-6F405FC603C3}|April25Client\\April25Client.csproj|c:\\users\\nemanja\\desktop\\ds\\wcf\\april25\\april25client\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C948640E-74AC-44B8-91C6-6F405FC603C3}|April25Client\\April25Client.csproj|solutionrelative:april25client\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C948640E-74AC-44B8-91C6-6F405FC603C3}|April25Client\\April25Client.csproj|c:\\users\\nemanja\\desktop\\ds\\wcf\\april25\\april25client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C948640E-74AC-44B8-91C6-6F405FC603C3}|April25Client\\April25Client.csproj|solutionrelative:april25client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAB98624-A7A9-4FD3-9E73-38347D59B549}|April25\\April25.csproj|c:\\users\\nemanja\\desktop\\ds\\wcf\\april25\\april25\\kalkulator.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAB98624-A7A9-4FD3-9E73-38347D59B549}|April25\\April25.csproj|solutionrelative:april25\\kalkulator.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAB98624-A7A9-4FD3-9E73-38347D59B549}|April25\\April25.csproj|c:\\users\\nemanja\\desktop\\ds\\wcf\\april25\\april25\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CAB98624-A7A9-4FD3-9E73-38347D59B549}|April25\\April25.csproj|solutionrelative:april25\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAB98624-A7A9-4FD3-9E73-38347D59B549}|April25\\April25.csproj|c:\\users\\nemanja\\desktop\\ds\\wcf\\april25\\april25\\ikalkulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAB98624-A7A9-4FD3-9E73-38347D59B549}|April25\\April25.csproj|solutionrelative:april25\\ikalkulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAB98624-A7A9-4FD3-9E73-38347D59B549}|April25\\April25.csproj|c:\\users\\nemanja\\desktop\\ds\\wcf\\april25\\april25\\rezultat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAB98624-A7A9-4FD3-9E73-38347D59B549}|April25\\April25.csproj|solutionrelative:april25\\rezultat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAB98624-A7A9-4FD3-9E73-38347D59B549}|April25\\April25.csproj|c:\\users\\nemanja\\desktop\\ds\\wcf\\april25\\april25\\ikalkulatorcallback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAB98624-A7A9-4FD3-9E73-38347D59B549}|April25\\April25.csproj|solutionrelative:april25\\ikalkulatorcallback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Nemanja\\Desktop\\DS\\wcf\\April25\\April25Client\\Form1.cs",
+              "RelativeDocumentMoniker": "April25Client\\Form1.cs",
+              "ToolTip": "C:\\Users\\Nemanja\\Desktop\\DS\\wcf\\April25\\April25Client\\Form1.cs",
+              "RelativeToolTip": "April25Client\\Form1.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAQwEAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T18:48:08.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Nemanja\\Desktop\\DS\\wcf\\April25\\April25Client\\Form1.cs",
+              "RelativeDocumentMoniker": "April25Client\\Form1.cs",
+              "ToolTip": "C:\\Users\\Nemanja\\Desktop\\DS\\wcf\\April25\\April25Client\\Form1.cs [Design]",
+              "RelativeToolTip": "April25Client\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T18:48:02.511Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nemanja\\Desktop\\DS\\wcf\\April25\\April25Client\\Program.cs",
+              "RelativeDocumentMoniker": "April25Client\\Program.cs",
+              "ToolTip": "C:\\Users\\Nemanja\\Desktop\\DS\\wcf\\April25\\April25Client\\Program.cs",
+              "RelativeToolTip": "April25Client\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T18:47:56.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Nemanja\\Desktop\\DS\\wcf\\April25\\April25\\Web.config",
+              "RelativeDocumentMoniker": "April25\\Web.config",
+              "ToolTip": "C:\\Users\\Nemanja\\Desktop\\DS\\wcf\\April25\\April25\\Web.config",
+              "RelativeToolTip": "April25\\Web.config",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-02-15T18:47:04.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Rezultat.cs",
+              "DocumentMoniker": "C:\\Users\\Nemanja\\Desktop\\DS\\wcf\\April25\\April25\\Rezultat.cs",
+              "RelativeDocumentMoniker": "April25\\Rezultat.cs",
+              "ToolTip": "C:\\Users\\Nemanja\\Desktop\\DS\\wcf\\April25\\April25\\Rezultat.cs",
+              "RelativeToolTip": "April25\\Rezultat.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T18:31:08.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Kalkulator.svc.cs",
+              "DocumentMoniker": "C:\\Users\\Nemanja\\Desktop\\DS\\wcf\\April25\\April25\\Kalkulator.svc.cs",
+              "RelativeDocumentMoniker": "April25\\Kalkulator.svc.cs",
+              "ToolTip": "C:\\Users\\Nemanja\\Desktop\\DS\\wcf\\April25\\April25\\Kalkulator.svc.cs",
+              "RelativeToolTip": "April25\\Kalkulator.svc.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAIA8wDQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T18:31:06.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IKalkulatorCallback.cs",
+              "DocumentMoniker": "C:\\Users\\Nemanja\\Desktop\\DS\\wcf\\April25\\April25\\IKalkulatorCallback.cs",
+              "RelativeDocumentMoniker": "April25\\IKalkulatorCallback.cs",
+              "ToolTip": "C:\\Users\\Nemanja\\Desktop\\DS\\wcf\\April25\\April25\\IKalkulatorCallback.cs",
+              "RelativeToolTip": "April25\\IKalkulatorCallback.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T18:31:03.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IKalkulator.cs",
+              "DocumentMoniker": "C:\\Users\\Nemanja\\Desktop\\DS\\wcf\\April25\\April25\\IKalkulator.cs",
+              "RelativeDocumentMoniker": "April25\\IKalkulator.cs",
+              "ToolTip": "C:\\Users\\Nemanja\\Desktop\\DS\\wcf\\April25\\April25\\IKalkulator.cs",
+              "RelativeToolTip": "April25\\IKalkulator.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T18:30:55.979Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -50,7 +50,7 @@
 
 - Napomene:
 - Za ispit nije neophodno pisati u serveru setovanje localRegistry!
-1. Potrebno je identifikovati Remote objekat, kad to ustanovimo, potrebno je najpre kreirati interfejs za njega bitno je napomenuti da extenduje **Remote** a metode bacuju grešku **RemoteException**
+1. Potrebno je identifikovati Remote objekat, kad to ustanovimo, potrebno je najpre kreirati interfejs za njega, bitno je napomenuti da extenduje **Remote** a metode bacuju grešku **RemoteException**
 2. Potom pravimo implementaciju Remote interfejsa, koji se zove isto kao i interfejs sa sufiksom Impl, on implementuje naš malopre definisani servis, a extenduje **UnicastRemoteObject**
 3. Ukoliko postoji objekat koji Remote objekat koristi ( a da nije callback)  on extenduje **Serializable**
 4. Ukoliko je neophodan callback ( callback je metod kojim server poziva metodu na klijentu i to uglavnom određenom klijentu) pravimo interfejs za njega on takođe kao i Remote interfejs extenduje **Remote** a metode bacaju **RemoteException**.
@@ -113,11 +113,11 @@ kada je full duplex:
 
 1. Dodati novi wcf servic CTRL+SHIFT+a koji će biti zapravo interfejs našeg servisa
 2. Dodati u skladu sa zahtevima odovarajući **ServiceContract** deskriptor
-Ukoliko nema callback pišemo samo **[ServiceContract]** iznad interfejsa a ukoliko zadatak ima callback **[ServiceContract(CallbackContract = typeof(ImeInterfejsaCallback), SessionMode = SessionMode.Required)]
+Ukoliko nema callback pišemo samo **[ServiceContract]** iznad interfejsa a ukoliko zadatak ima callback **[ServiceContract(CallbackContract = typeof(ImeInterfejsaCallback), SessionMode = SessionMode.Required)]**
 sve metode imaju deskriptor **[OperationContract]** ali neke mogu imati **[OperationContract(isOneWay = true)]**, što naglašava da servis ne treba da čeka da klijent primi poruku, i ove funkciju moraju biti void
 3. Kreiramo pomoćne klase jedino je bitno napomenuti da njima iznad klase ide deskriptor **[DataContract]** a njihovim propertijima **[DataMember]**
 4. Implementacija interfejsa, i iznad klase ide deskriptor **[ServiceBehavior(InstanceContextMode = InstanceContextMode.PerCall)]** , može biti **PerCall** , **Single** , ili **PerSession**,
-PerCall znači da će se servis instancirati svaki put kad se metoda pozove (baš retko u zadacima) , Single - svi klijenti imaju isti servis poželjno u situacijama gde postoji "centralna baza podataka" , PerSession - svaki klijent ima svoj servis, odnosno svoju mini bazu
+**PerCall** znači da će se servis instancirati svaki put kad se metoda pozove (baš retko u zadacima) , **Single** - svi klijenti imaju isti servis poželjno u situacijama gde postoji "centralna baza podataka" , **PerSession** - svaki klijent ima svoj servis, odnosno svoju mini bazu
 5. Ukoliko imamo callback i traži se od nas, samo je potrebno interfejs na serveru napisati
 6. Kreirati klijenstku aplikaciju i desni klik add service reference i odabrati naš servis, i štiklirati Synchronous methods
 7. implementacija callbacka na klijentu ukoliko postoji, i pristup ImeServisaClient klasi, objekat je potrebno nazvati proxy, iz koga pozivamo metode sa servera.
