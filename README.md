@@ -70,7 +70,7 @@
 
 
 # WCF
-
+- Rešeni blanketi: Jun2024 , Januar2025, April2025
 - Setup projekta:
 - Za server idete add new project i **WCF SERVICE APPLICATION** , za klijentsku aplikacuje je najbolje da bude winforms 
 - Za ispit nije neophodno pisati ceo web config već samo ovi ključni delovi:
