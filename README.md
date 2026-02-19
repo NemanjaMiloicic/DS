@@ -28,7 +28,7 @@
 
 # RMI
 
-- Rešeni blanketi: Jun2024
+- Rešeni blanketi: Jun2024, Jan2026
 - Setup projekta:
   1. Nije neophodno okruženje (ja sam u vscode pisao), kada ispišete sve fajlove pokrenite terminal u folderu gde vam se nalaze svi java fajlovi i napišite sleću komandu
  ```
