@@ -128,3 +128,12 @@ sve metode imaju deskriptor **[OperationContract]** ali neke mogu imati **[Opera
 1. **Esus**
 2. **Pomogi**
 3. Šalu na stranu odgledajte prvo videe sa ovog linka:https://www.youtube.com/watch?v=z3zfPCdCGrI&list=PLBmhuYmlCf9z6QA1UY5fkiPsHpe7Mjll6, potom rešavajte blankete koje sam ja rešavao.
+
+
+#SVI VIDEO MATERIJALI
+- **RMI**: https://www.youtube.com/watch?v=qA-1PQLx_KA&list=PLBmhuYmlCf9xeIc5nGar5Rzj7gtGR9q7W
+- **WCF**: https://www.youtube.com/watch?v=dzO_9PrLV1c&list=PLBmhuYmlCf9zZQJ-dPTvWE62MBzVjwVE2
+- **MPI** deo samo za **DS**: https://www.youtube.com/watch?v=z3zfPCdCGrI&list=PLBmhuYmlCf9z6QA1UY5fkiPsHpe7Mjll6
+- **MPI** deo samo za **PS**: https://www.youtube.com/watch?v=BWqTE9bR_KQ&list=PLBmhuYmlCf9zKoYduoYGlmtW8q8RZyRAj
+- I za namučene duše koje ovo polažu pre paralelnih evo i **ceo MPI** redom: https://www.youtube.com/watch?v=BWqTE9bR_KQ&list=PLBmhuYmlCf9x67wATglaNDQxW_b_5_Imc
+- **Sa srećom da položite ispit :)**
