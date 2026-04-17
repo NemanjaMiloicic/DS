@@ -121,3 +121,8 @@ sve metode imaju deskriptor **[OperationContract]** ali neke mogu imati **[Opera
 5. Ukoliko imamo callback i traži se od nas, samo je potrebno interfejs na serveru napisati
 6. Kreirati klijenstku aplikaciju i desni klik add service reference i odabrati naš servis, i štiklirati Synchronous methods
 7. implementacija callbacka na klijentu ukoliko postoji, i pristup ImeServisaClient klasi, objekat je potrebno nazvati proxy, iz koga pozivamo metode sa servera.
+
+
+# MPI
+1. **Esus**
+2. **Pomogi**
