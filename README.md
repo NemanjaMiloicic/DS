@@ -130,7 +130,7 @@ sve metode imaju deskriptor **[OperationContract]** ali neke mogu imati **[Opera
 3. Šalu na stranu odgledajte prvo videe sa ovog linka:https://www.youtube.com/watch?v=z3zfPCdCGrI&list=PLBmhuYmlCf9z6QA1UY5fkiPsHpe7Mjll6, potom rešavajte blankete koje sam ja rešavao.
 
 
-#SVI VIDEO MATERIJALI
+# SVI VIDEO MATERIJALI
 - **RMI**: https://www.youtube.com/watch?v=qA-1PQLx_KA&list=PLBmhuYmlCf9xeIc5nGar5Rzj7gtGR9q7W
 - **WCF**: https://www.youtube.com/watch?v=dzO_9PrLV1c&list=PLBmhuYmlCf9zZQJ-dPTvWE62MBzVjwVE2
 - **MPI** deo samo za **DS**: https://www.youtube.com/watch?v=z3zfPCdCGrI&list=PLBmhuYmlCf9z6QA1UY5fkiPsHpe7Mjll6
