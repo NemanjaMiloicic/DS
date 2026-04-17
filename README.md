@@ -124,6 +124,7 @@ sve metode imaju deskriptor **[OperationContract]** ali neke mogu imati **[Opera
 
 
 # MPI
+- Rešeni blanketi: Jun2_2021, Jan2022, Jun2022, Jun2023,  Jun2024 
 1. **Esus**
 2. **Pomogi**
 3. Šalu na stranu odgledajte prvo videe sa ovog linka:https://www.youtube.com/watch?v=z3zfPCdCGrI&list=PLBmhuYmlCf9z6QA1UY5fkiPsHpe7Mjll6, potom rešavajte blankete koje sam ja rešavao.
