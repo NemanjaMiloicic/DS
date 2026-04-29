@@ -130,6 +130,27 @@ sve metode imaju deskriptor **[OperationContract]** ali neke mogu imati **[Opera
 3. Šalu na stranu odgledajte prvo videe sa ovog linka:https://www.youtube.com/watch?v=z3zfPCdCGrI&list=PLBmhuYmlCf9z6QA1UY5fkiPsHpe7Mjll6, potom rešavajte blankete koje sam ja rešavao.
 
 
+# SunRPC
+- Rešen blanket Okt2_2025 zadatak 5b, nova akreditacija.
+- Odgledajte video snimke predavanja (oblast Komunikacija) pre nego što radite
+- U .x fajlu se pišu strukture, i funkcije koje se koriste
+- Program najbolje da je jednak 0x29999999 (tehnicki vrednost između 0x20..0 - 0x30000000 treba da bude bilo koja)
+- Ako ima više funkcija jednake su redom 1,2,3...
+- Version je jednak jedinici
+- U klijentskom programu najpre importujemo header fajl koji se generiše kad se kompajlira .x fajl , rpc/rpc.h
+- Koristimo pointer na CLIENT strukturu za pristup udaljenim procedurama
+- Koristimo funkciju  koja prima putanju do servera, program(ime programa u .x), verzija(ime verzije u .x), i "udp".
+- Povratna vrednost procedure je pointer na strukturu uvek!
+- Pozivamo proceduru tako sto koristimo njeno ime definisano unutar .x pa donja crtica(_) broj verzije
+- Pored strukture prima i pointer na strukturu CLIENT
+- Na kraju pozivamo cln_destroy koja prima isto pointer na CLIENT
+- U serveru importuje se heder fajl generisan iz .x i rpc/rpc.h
+- Vršimo implementaciju funkcija definisanih u .x na sledeci nacin
+- Povratna vrednost je pointer na strukturu, ime funkcije je ime definisano u .x donja crtica(_) broj verzije donja crtica svc
+- Parametri su pointer na strukturu i struct svc_req \* rqstp (uvek ovako, slicno kao servercallcontext u grpc)
+- static povratna_struktura ps, onda vrsimo operacije nad njom i nakon toga return &ps;
+
+
 # SVI VIDEO MATERIJALI
 - **RMI**: https://www.youtube.com/watch?v=qA-1PQLx_KA&list=PLBmhuYmlCf9xeIc5nGar5Rzj7gtGR9q7W
 - **WCF**: https://www.youtube.com/watch?v=dzO_9PrLV1c&list=PLBmhuYmlCf9zZQJ-dPTvWE62MBzVjwVE2
